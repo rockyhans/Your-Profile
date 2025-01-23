@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
 import SGPAForm from "./components/SGPAForm";
 import CGPAForm from "./components/CGPAForm";
@@ -9,7 +9,7 @@ import "./App.css";
 import Userdata from "./components/Userdata";
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/Your-Profile">
       <Routes>
         <Route path="/" element={<FirstPage />} />
         <Route path="/signup" element={<SignUp />} />
@@ -18,7 +18,7 @@ function App() {
         <Route path="/cgpa" element={<CGPAForm />} />
         <Route path="/userdata" element={<Userdata />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
