@@ -1,0 +1,220 @@
+.SGPAform {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.SGPAform form {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.SGPAform form div {
+  display: flex;
+  gap: 7px;
+}
+
+.SGPAform form input {
+  padding: 10px;
+  background: none;
+  border: 2px solid rgba(135, 207, 235, 0.577);
+  text-align: center;
+  border-radius: 7px;
+  color: snow;
+}
+
+h3 {
+  width: 100%;
+  text-align: left;
+}
+
+.SGPAform ul h3 {
+  color: rgb(248, 182, 60);
+}
+
+.SGPAform ul h4 {
+  color: rgb(253, 220, 31);
+}
+
+.SGPAform ul h5 {
+  color: rgb(2, 249, 233);
+}
+
+.CGPAform {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.CGPAform form {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.CGPAform form div {
+  display: flex;
+  gap: 7px;
+}
+
+.CGPAform form input {
+  padding: 10px;
+  background: none;
+  border: 2px solid rgba(135, 207, 235, 0.577);
+  text-align: center;
+  border-radius: 7px;
+  color: snow;
+}
+
+.imp {
+  background: none;
+  border: 2px solid rgba(135, 207, 235, 0.577);
+  text-align: center;
+  border-radius: 7px;
+  color: snow;
+  padding: 0px !important;
+}
+
+h3 {
+  width: 100%;
+  text-align: left;
+}
+
+.CGPAform ul h3 {
+  color: rgb(248, 182, 60);
+}
+
+.CGPAform ul h4 {
+  color: rgb(253, 220, 31);
+}
+
+.CGPAform ul h5 {
+  color: rgb(2, 249, 233);
+}
+
+@media (max-width: 768px) {
+  .SGPAform {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+  }
+
+  .SGPAform form {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+
+  .SGPAform form div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .SGPAform form input {
+    padding: 10px;
+    background: none;
+    border: 2px solid rgba(135, 207, 235, 0.577);
+    text-align: center;
+    border-radius: 7px;
+    color: snow;
+  }
+
+  h3 {
+    width: 100%;
+    text-align: left;
+  }
+
+  .SGPAform ul h3 {
+    color: rgb(248, 182, 60);
+  }
+
+  .SGPAform ul h4 {
+    color: rgb(253, 220, 31);
+  }
+
+  .SGPAform ul h5 {
+    color: rgb(2, 249, 233);
+  }
+
+  .CGPAform {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .CGPAform form {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px !important;
+  }
+
+  .CGPAform form div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .CGPAform form input {
+    padding: 10px;
+    background: none;
+    border: 2px solid rgba(135, 207, 235, 0.577);
+    text-align: center;
+    border-radius: 7px;
+    color: snow;
+  }
+
+  .imp {
+    background: none;
+    border: 2px solid rgba(135, 207, 235, 0.577);
+    text-align: center;
+    border-radius: 7px;
+    color: snow;
+    padding: 0px !important;
+  }
+
+  h3 {
+    width: 100%;
+    text-align: left;
+  }
+
+  .CGPAform ul h3 {
+    color: rgb(248, 182, 60);
+  }
+
+  .CGPAform ul h4 {
+    color: rgb(253, 220, 31);
+  }
+
+  .CGPAform ul h5 {
+    color: rgb(2, 249, 233);
+  }
+
+  ul {
+    width: 100%;
+  }
+}
